@@ -44,7 +44,7 @@ namespace API_Product
             services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
-                    options.Authority = "https://localhost:5001/";
+                    options.Authority = "https://localhost:44334/";
                     options.TokenValidationParameters = new TokenValidationParameters
                     {
                         ValidateAudience = false

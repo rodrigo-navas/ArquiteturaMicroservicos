@@ -19,7 +19,7 @@ namespace IdentityServer.Configuration
         public static IEnumerable<ApiScope> ApiScopes =>
             new List<ApiScope>
             {
-                new ApiScope("geek_shopping", "GeekShopping Server"),
+                new ApiScope("estudo", "Estudo Server"),
                 new ApiScope(name: "read", "Read data."),
                 new ApiScope(name: "write", "Write data."),
                 new ApiScope(name: "delete", "Delete data."),
@@ -37,17 +37,17 @@ namespace IdentityServer.Configuration
                 },
                 new Client
                 {
-                    ClientId = "geek_shopping",
+                    ClientId = "estudo",
                     ClientSecrets = { new Secret("my_super_secret".Sha256())},
                     AllowedGrantTypes = GrantTypes.Code,
-                    RedirectUris = {"https://localhost:4430/signin-oidc"},
-                    PostLogoutRedirectUris = {"https://localhost:4430/signout-callback-oidc"},
+                    RedirectUris = {"https://localhost:4001/signin-oidc"},
+                    PostLogoutRedirectUris = {"https://localhost:4001/signout-callback-oidc"},
                     AllowedScopes = new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.Email,
-                        "geek_shopping"
+                        "estudo"
                     }
                 }
             };
