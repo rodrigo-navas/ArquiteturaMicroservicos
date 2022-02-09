@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32106.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{4BBC8AA8-88D4-4C21-9BBA-D9B49D680B6F}"
 EndProject
@@ -9,9 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{52
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{9D155B51-A651-415F-9F86-8B861E117B54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{DB95A242-67AE-4C49-9F5E-F151CBD8575E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{DB95A242-67AE-4C49-9F5E-F151CBD8575E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Product", "API_Product\API_Product.csproj", "{79608651-12BD-41CE-87AC-711872332637}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API_Product", "API_Product\API_Product.csproj", "{79608651-12BD-41CE-87AC-711872332637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Cart", "API_Cart\API_Cart.csproj", "{75B2BA20-ED59-44CE-BEE5-D7B4763DFBA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{79608651-12BD-41CE-87AC-711872332637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79608651-12BD-41CE-87AC-711872332637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79608651-12BD-41CE-87AC-711872332637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B2BA20-ED59-44CE-BEE5-D7B4763DFBA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B2BA20-ED59-44CE-BEE5-D7B4763DFBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B2BA20-ED59-44CE-BEE5-D7B4763DFBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B2BA20-ED59-44CE-BEE5-D7B4763DFBA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{9D155B51-A651-415F-9F86-8B861E117B54} = {4BBC8AA8-88D4-4C21-9BBA-D9B49D680B6F}
 		{DB95A242-67AE-4C49-9F5E-F151CBD8575E} = {52C7E5C7-EBF1-4841-ABD0-2ED4EEAFD52D}
 		{79608651-12BD-41CE-87AC-711872332637} = {4BBC8AA8-88D4-4C21-9BBA-D9B49D680B6F}
+		{75B2BA20-ED59-44CE-BEE5-D7B4763DFBA5} = {4BBC8AA8-88D4-4C21-9BBA-D9B49D680B6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74882173-1AE0-4D1E-9D08-F51EFECED763}
