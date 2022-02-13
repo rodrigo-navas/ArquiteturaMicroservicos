@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32112.339
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{4BBC8AA8-88D4-4C21-9BBA-D9B49D680B6F}"
 EndProject
@@ -19,12 +19,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API_Coupon", "API_Coupon\AP
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{B34289BF-B5D0-405D-878E-A7A05D76128F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBus", "MessageBus\MessageBus.csproj", "{6066115D-D371-4AB2-814E-F0899ED61BBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBus", "MessageBus\MessageBus.csproj", "{6066115D-D371-4AB2-814E-F0899ED61BBE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{567E3E46-D47C-4B2F-A197-FD8B631F6953}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yaml = docker-compose.yaml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Order", "API_Order\API_Order.csproj", "{6D4FECDB-35C9-4301-9EFD-084A4ACF6B06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +58,10 @@ Global
 		{6066115D-D371-4AB2-814E-F0899ED61BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6066115D-D371-4AB2-814E-F0899ED61BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6066115D-D371-4AB2-814E-F0899ED61BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D4FECDB-35C9-4301-9EFD-084A4ACF6B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4FECDB-35C9-4301-9EFD-084A4ACF6B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4FECDB-35C9-4301-9EFD-084A4ACF6B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4FECDB-35C9-4301-9EFD-084A4ACF6B06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{75B2BA20-ED59-44CE-BEE5-D7B4763DFBA5} = {4BBC8AA8-88D4-4C21-9BBA-D9B49D680B6F}
 		{07C7F758-B40F-4A89-9A74-22A3812BDAFD} = {4BBC8AA8-88D4-4C21-9BBA-D9B49D680B6F}
 		{6066115D-D371-4AB2-814E-F0899ED61BBE} = {B34289BF-B5D0-405D-878E-A7A05D76128F}
+		{6D4FECDB-35C9-4301-9EFD-084A4ACF6B06} = {4BBC8AA8-88D4-4C21-9BBA-D9B49D680B6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74882173-1AE0-4D1E-9D08-F51EFECED763}

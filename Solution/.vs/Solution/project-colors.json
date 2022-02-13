@@ -35,7 +35,22 @@
       "ProjectGuid": "07c7f758-b40f-4a89-9a74-22a3812bdafd",
       "DisplayName": "API_Coupon",
       "ColorIndex": 5
+    },
+    "6066115d-d371-4ab2-814e-f0899ed61bbe": {
+      "ProjectGuid": "6066115d-d371-4ab2-814e-f0899ed61bbe",
+      "DisplayName": "MessageBus",
+      "ColorIndex": 6
+    },
+    "567e3e46-d47c-4b2f-a197-fd8b631f6953": {
+      "ProjectGuid": "567e3e46-d47c-4b2f-a197-fd8b631f6953",
+      "DisplayName": "Docker",
+      "ColorIndex": 7
+    },
+    "a654d555-cfb8-4986-a379-d557e8fb1158": {
+      "ProjectGuid": "a654d555-cfb8-4986-a379-d557e8fb1158",
+      "DisplayName": "API_Order",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 9
 }
