@@ -20,7 +20,17 @@
       "ProjectGuid": "db95a242-67ae-4c49-9f5e-f151cbd8575e",
       "DisplayName": "FrontEnd",
       "ColorIndex": 2
+    },
+    "3d03ad98-4f7b-4412-8ce3-88099c9a0622": {
+      "ProjectGuid": "3d03ad98-4f7b-4412-8ce3-88099c9a0622",
+      "DisplayName": "API_Cart",
+      "ColorIndex": 3
+    },
+    "75b2ba20-ed59-44ce-bee5-d7b4763dfba5": {
+      "ProjectGuid": "75b2ba20-ed59-44ce-bee5-d7b4763dfba5",
+      "DisplayName": "API_Cart",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }
