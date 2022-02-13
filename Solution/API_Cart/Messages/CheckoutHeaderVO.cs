@@ -1,10 +1,11 @@
 ﻿using API_Cart.Data.ValueObjects;
+using MessageBus;
 using System;
 using System.Collections.Generic;
 
 namespace API_Cart.Messages
 {
-    public class CheckoutHeaderVO
+    public class CheckoutHeaderVO : BaseMessage
     {
         public string UserId { get; set; }
         public string CouponCode { get; set; }

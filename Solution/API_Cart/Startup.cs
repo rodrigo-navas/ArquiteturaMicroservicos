@@ -1,5 +1,6 @@
 using API_Cart.Config;
 using API_Cart.Model.Context;
+using API_Cart.RabbitMQSender;
 using API_Cart.Repository;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
@@ -40,8 +41,8 @@ namespace API_Cart
 
             services.AddScoped<ICartRepository, CartRepository>();
             services.AddScoped<ICouponRepository, CouponRepository>();
+            services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
 
-            //services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
             services.AddControllers();
 
             services.AddHttpClient<ICouponRepository, CouponRepository>(s => s.BaseAddress =

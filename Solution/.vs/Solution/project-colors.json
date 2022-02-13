@@ -30,7 +30,12 @@
       "ProjectGuid": "75b2ba20-ed59-44ce-bee5-d7b4763dfba5",
       "DisplayName": "API_Cart",
       "ColorIndex": 4
+    },
+    "07c7f758-b40f-4a89-9a74-22a3812bdafd": {
+      "ProjectGuid": "07c7f758-b40f-4a89-9a74-22a3812bdafd",
+      "DisplayName": "API_Coupon",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }

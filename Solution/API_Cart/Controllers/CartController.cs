@@ -1,5 +1,6 @@
 ﻿using API_Cart.Data.ValueObjects;
 using API_Cart.Messages;
+using API_Cart.RabbitMQSender;
 using API_Cart.Repository;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -13,12 +14,15 @@ namespace API_Cart.Controllers
     {
         private ICartRepository _cartRepository;
         private ICouponRepository _couponRepository;
+        private IRabbitMQMessageSender _rabbitMQMessageSender; 
 
         public CartController(ICartRepository cartRepository,
-            ICouponRepository couponRepository)
+            ICouponRepository couponRepository,
+            IRabbitMQMessageSender rabbitMQMessageSender)
         {
             _cartRepository = cartRepository ?? throw new ArgumentNullException(nameof(cartRepository));
             _couponRepository = couponRepository ?? throw new ArgumentNullException(nameof(couponRepository));
+            _rabbitMQMessageSender = rabbitMQMessageSender;
         }
 
         [HttpGet("find-cart/{id}")]
@@ -90,7 +94,7 @@ namespace API_Cart.Controllers
             vo.DateTime = DateTime.Now;
 
             // RabbitMQ logic comes here!!!
-            //_rabbitMQMessageSender.SendMessage(vo, "checkoutqueue");
+            _rabbitMQMessageSender.SendMessage(vo, "checkoutqueue");
 
             await _cartRepository.ClearCart(vo.UserId);
 
