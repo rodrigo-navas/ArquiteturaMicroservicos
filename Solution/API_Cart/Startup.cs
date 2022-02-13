@@ -27,7 +27,6 @@ namespace API_Cart
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             var connection = Configuration["MySQlConnection:MySQlConnectionString"];
 
             services.AddDbContext<MySQLContext>(options => options.
@@ -45,8 +44,8 @@ namespace API_Cart
             //services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
             services.AddControllers();
 
-            //services.AddHttpClient<ICouponRepository, CouponRepository>(s => s.BaseAddress =
-            //    new Uri(Configuration["ServiceUrls:CouponAPI"]));
+            services.AddHttpClient<ICouponRepository, CouponRepository>(s => s.BaseAddress =
+                new Uri(Configuration["ServiceUrls:CouponAPI"]));
 
             services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
