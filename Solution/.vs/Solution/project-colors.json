@@ -50,7 +50,12 @@
       "ProjectGuid": "a654d555-cfb8-4986-a379-d557e8fb1158",
       "DisplayName": "API_Order",
       "ColorIndex": 8
+    },
+    "6d4fecdb-35c9-4301-9efd-084a4acf6b06": {
+      "ProjectGuid": "6d4fecdb-35c9-4301-9efd-084a4acf6b06",
+      "DisplayName": "API_Order",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }
