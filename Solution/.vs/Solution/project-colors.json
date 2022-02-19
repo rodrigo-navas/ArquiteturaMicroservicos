@@ -55,7 +55,22 @@
       "ProjectGuid": "6d4fecdb-35c9-4301-9efd-084a4acf6b06",
       "DisplayName": "API_Order",
       "ColorIndex": 9
+    },
+    "fb91d443-facf-412c-b956-ce257ea96149": {
+      "ProjectGuid": "fb91d443-facf-412c-b956-ce257ea96149",
+      "DisplayName": "API_PaymentAPI",
+      "ColorIndex": 10
+    },
+    "2814f54a-9d11-46a8-b4aa-ea15b67e9df8": {
+      "ProjectGuid": "2814f54a-9d11-46a8-b4aa-ea15b67e9df8",
+      "DisplayName": "PaymentProcessor",
+      "ColorIndex": 11
+    },
+    "c4cd0aa8-3d03-4725-853b-2f461b4598af": {
+      "ProjectGuid": "c4cd0aa8-3d03-4725-853b-2f461b4598af",
+      "DisplayName": "Provedor_Email",
+      "ColorIndex": 12
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 13
 }
