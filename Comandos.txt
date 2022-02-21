@@ -1,4 +1,0 @@
-dotnet new isui - Criar template do Duende
-
-Migrations
-Add-Migration
